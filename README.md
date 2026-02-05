@@ -17,39 +17,10 @@ This is a full-stack e-commerce product management application built using the *
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, Tailwind CSS
+- **Frontend**: React, Tailwind CSS, HTML
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Deployment**: Localhost (dev)
+- **Deployment**: Localhost 
 
 ---
 
-## 📁 Project Structure
-
-
-StartSmart/
-├── mern-stack-api/ # Backend
-│ ├── models/ # Mongoose schemas
-│ ├── routes/ # Express API routes
-│ ├── uploads/ # Product images
-│ ├── server.js # Main server
-│ └── .env # MongoDB URI
-├── mern-stack-client/ # Frontend
-│ ├── src/
-│ │ ├── components/
-│ │ └── App.js
-│ ├── public/
-│ └── tailwind.config.js
-
-
-
----
-
-## 🧑‍💻 How to Run the Project
-
-### 🔧 Backend Setup
-
-1. Open terminal in `mern-stack-api/`
-2. Install dependencies:
-   ```bash
-   npm install
