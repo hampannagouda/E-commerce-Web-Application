@@ -63,9 +63,6 @@ function App() {
             <p className="text-green-600 font-bold mt-2">₹{product.price}</p>
             <div className="flex gap-2 mt-4">
               <button onClick={() => handleUpdate(product._id)} className="px-3 py-1 bg-yellow-400 hover:bg-yellow-500 text-white rounded-md">Update</button>
-                  <div style={{ padding: "40px", fontSize: "24px" }}>
-      ✅ Frontend is working perfectly!
-    </div>
               <button onClick={() => handleDelete(product._id)} className="px-3 py-1 bg-red-500 hover:bg-red-600 text-white rounded-md">Delete</button>
             </div>
           </div>
